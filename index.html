@@ -54,7 +54,7 @@
 
         .logo {
             text-align: center;
-            font-size: 2.5rem;
+            font-size: 2rem;
             font-weight: bold;
             background: linear-gradient(45deg, #ffffff, #cccccc);
             background-clip: text;
@@ -70,30 +70,30 @@
 
         /* Hero Section */
         .hero {
-            padding: 48px 0;
+            padding: 32px 0;
             text-align: center;
             background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
         }
 
         .hero h1 {
-            font-size: 3rem;
-            margin-bottom: 14px;
+            font-size: 2.2rem;
+            margin-bottom: 10px;
             font-weight: 800;
             animation: slideInDown 1s ease-out;
         }
 
         .hero p {
-            font-size: 1.15rem;
-            margin-bottom: 28px;
+            font-size: 1rem;
+            margin-bottom: 18px;
             color: #cccccc;
             animation: slideInUp 1s ease-out 0.3s both;
         }
 
         .price-row { display:flex; justify-content:center; gap:16px; flex-wrap:wrap; }
-        .price-tag { display:inline-block; background: linear-gradient(45deg, #000, #333); border: 2px solid #fff; padding: 14px 24px; border-radius: 12px; margin: 12px 0; animation: pulse 2s infinite; min-width: 220px; }
+        .price-tag { display:inline-block; background: linear-gradient(45deg, #000, #333); border: 1px solid #fff; padding: 10px 16px; border-radius: 10px; margin: 10px 0; animation: pulse 2s infinite; min-width: 180px; }
 
         .price {
-            font-size: 2.1rem;
+            font-size: 1.8rem;
             font-weight: bold;
             color: #ffffff;
         }
@@ -111,20 +111,20 @@
 
         /* Features Section */
         .features {
-            padding: 56px 0;
+            padding: 40px 0;
             background: rgba(255, 255, 255, 0.05);
         }
 
         .features h2 {
             text-align: center;
-            font-size: 2.2rem;
-            margin-bottom: 36px;
+            font-size: 1.8rem;
+            margin-bottom: 24px;
             animation: fadeInUp 1s ease-out;
         }
 
         .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; margin-top: 24px; }
 
-        .feature-card { background: rgba(0,0,0,0.7); padding: 22px; border-radius: 12px; border: 1px solid #444; text-align: center; transition: all 0.3s ease; animation: fadeInUp 1s ease-out; }
+        .feature-card { background: rgba(0,0,0,0.7); padding: 18px; border-radius: 10px; border: 1px solid #444; text-align: center; transition: all 0.3s ease; animation: fadeInUp 1s ease-out; }
 
         .feature-card:hover {
             transform: translateY(-10px);
@@ -133,32 +133,32 @@
         }
 
         .feature-icon {
-            font-size: 3rem;
+            font-size: 2.2rem;
             margin-bottom: 20px;
             display: block;
         }
 
         .feature-title {
-            font-size: 1.3rem;
+            font-size: 1.1rem;
             font-weight: bold;
             margin-bottom: 15px;
         }
 
         /* Payment Section */
         .payment {
-            padding: 56px 0;
+            padding: 40px 0;
             text-align: center;
         }
 
         .payment h2 {
-            font-size: 2.2rem;
-            margin-bottom: 28px;
+            font-size: 1.8rem;
+            margin-bottom: 22px;
             animation: fadeInUp 1s ease-out;
         }
 
         .payment-methods { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; margin: 28px 0; }
 
-        .payment-card { background: linear-gradient(135deg, #1a1a1a, #2d2d2d); border: 2px solid #444; border-radius: 12px; padding: 22px; transition: all 0.3s ease; animation: slideInUp 1s ease-out; }
+        .payment-card { background: linear-gradient(135deg, #1a1a1a, #2d2d2d); border: 1px solid #444; border-radius: 10px; padding: 18px; transition: all 0.3s ease; animation: slideInUp 1s ease-out; }
 
         .payment-card:hover {
             border-color: #ffffff;
@@ -166,7 +166,7 @@
         }
 
         .payment-title {
-            font-size: 1.4rem;
+            font-size: 1.2rem;
             font-weight: bold;
             margin-bottom: 15px;
             color: #ffffff;
@@ -174,22 +174,22 @@
 
         .payment-subtitle {
             color: #cccccc;
-            margin-bottom: 20px;
+            margin-bottom: 14px;
         }
 
         .cta-button {
             display: inline-block;
             background: linear-gradient(45deg, #ffffff, #cccccc);
             color: #000;
-            padding: 12px 22px;
-            border-radius: 10px;
+            padding: 10px 16px;
+            border-radius: 8px;
             text-decoration: none;
-            font-weight: bold;
-            font-size: 1rem;
+            font-weight: 700;
+            font-size: 0.95rem;
             transition: all 0.3s ease;
             border: none;
             cursor: pointer;
-            margin: 10px;
+            margin: 8px;
             animation: shimmer 2s infinite;
         }
 
@@ -206,17 +206,17 @@
         /* Contact Section */
         .contact {
             background: rgba(0, 0, 0, 0.8);
-            padding: 40px 0;
+            padding: 28px 0;
             text-align: center;
         }
 
         .contact h2 {
-            font-size: 2rem;
-            margin-bottom: 30px;
+            font-size: 1.6rem;
+            margin-bottom: 16px;
         }
 
         .contact-info {
-            font-size: 1.2rem;
+            font-size: 1rem;
             color: #cccccc;
         }
 
@@ -286,25 +286,27 @@
 
         /* Mobile Responsive */
         @media (max-width: 768px) {
-            .hero h1 {
-                font-size: 2.1rem;
-            }
-            
-            .hero p {
-                font-size: 1rem;
-            }
-            
-            .price {
-                font-size: 1.8rem;
-            }
-            
-            .features h2, .payment h2 {
-                font-size: 1.8rem;
-            }
-            
-            .payment-methods {
-                grid-template-columns: 1fr;
-            }
+            .logo { font-size: 1.6rem; }
+            .hero { padding: 24px 0; }
+            .hero h1 { font-size: 1.6rem; }
+            .hero p { font-size: 0.95rem; }
+            .price { font-size: 1.4rem; }
+            .features h2, .payment h2 { font-size: 1.4rem; }
+            .feature-icon { font-size: 1.8rem; }
+            .feature-title { font-size: 1rem; }
+            .payment-title { font-size: 1.05rem; }
+            .cta-button { font-size: 0.9rem; padding: 9px 14px; }
+            .sticky-cta { padding: 8px 10px; }
+        }
+
+        @media (max-width: 480px) {
+            .hero { padding: 20px 0; }
+            .hero h1 { font-size: 1.4rem; }
+            .hero p { font-size: 0.9rem; }
+            .price { font-size: 1.2rem; }
+            .cta-button { font-size: 0.85rem; padding: 8px 12px; margin: 6px; }
+            .payment-card { padding: 14px; }
+            .feature-card { padding: 14px; }
         }
 
         /* Promo destaque topo */
@@ -343,11 +345,17 @@
     <header class="header">
         <div class="container">
             <div class="logo">🤖 Alexandre Tech IA</div>
+            <nav style="margin-top:10px; display:flex; gap:14px; justify-content:center; flex-wrap:wrap;">
+                <a href="#principal" class="telegram-link">Sistema Principal</a>
+                <a href="#signals-bot" class="telegram-link">Robô de Sinais</a>
+                <a href="#payment" class="telegram-link">Pagamento</a>
+                <a href="#contact" class="telegram-link">Contato</a>
+            </nav>
         </div>
     </header>
 
     <main>
-        <section class="hero">
+        <section class="hero" id="principal">
             <div class="container">
                 <div class="promo-banner">
                     <span class="promo-badge">PROMO</span>
@@ -355,7 +363,7 @@
                     <button class="cta-button" onclick="openNationalPaymentQuarterly()">🛒 Garantir Trimestral</button>
                 </div>
                 <div class="sticky-cta">
-                    <span class="txt">Trimestral por R$ 205,00 (<span class="economy">economia R$ 25</span>)</span>
+                    <span class="txt">Sistema Principal — Trimestral por R$ 205,00 (<span class="economy">economia R$ 25</span>)</span>
                     <button class="cta-button" onclick="openNationalPaymentQuarterly()">Assinar agora</button>
                 </div>
                 <h1>Bot Inteligente para Análise de Cassinos</h1>
@@ -373,6 +381,75 @@
                 </div>
 
                 <p>🎯 Análises em tempo real • 🤖 3 Estratégias de IA • 📊 11 Jogos suportados</p>
+            </div>
+        </section>
+
+        <!-- Atalhos de Produtos -->
+        <section class="features" id="produtos">
+            <div class="container">
+                <h2>🧭 Produtos</h2>
+                <div class="features-grid">
+                    <div class="feature-card" onclick="document.querySelector('#payment').scrollIntoView({behavior:'smooth'});" style="cursor:pointer;">
+                        <span class="feature-icon">💼</span>
+                        <div class="feature-title">Sistema Principal</div>
+                        <p>Planos Mensal e Trimestral, pagamento nacional e internacional</p>
+                    </div>
+                    <div class="feature-card" onclick="document.querySelector('#signals-bot').scrollIntoView({behavior:'smooth'});" style="cursor:pointer;">
+                        <span class="feature-icon">🤖</span>
+                        <div class="feature-title">Robô de Sinais (até G1)</div>
+                        <p>Mensal R$ 59,90 — cartão, PIX e internacional (+R$ 25)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Robô de Sinais Inteligente (até G1) -->
+        <section class="payment" id="signals-bot">
+            <div class="container">
+                <h2>🤖 Robô de Sinais Inteligente (até G1)</h2>
+                <p style="text-align:center;color:#ccc;margin:8px 0 22px;">Automatize suas entradas com IA (até G1), estatísticas em tempo real e aprendizado contínuo</p>
+
+                <div style="max-width:1000px;margin:0 auto 18px;">
+                    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;">
+                        <div class="payment-card" style="border-color:#777">
+                            <div class="payment-title">Assinatura Mensal</div>
+                            <p style="margin:8px 0;color:#ccc"><strong>R$ 59,90</strong> / mês</p>
+                            <ul style="text-align:left;color:#ccc;line-height:1.6;margin:10px 0 6px 18px;">
+                                <li>Sinais com IA até G1</li>
+                                <li>Notificações em tempo real</li>
+                                <li>Atualizações e suporte</li>
+                            </ul>
+                            <button class="cta-button" onclick="openInfinitePaySignals()">💳 Pagar com Cartão (R$ 59,90)</button>
+                        </div>
+
+                        <div class="payment-card" style="border-color:#ffd166">
+                            <div class="payment-title">PIX (Copia e Cola)</div>
+                            <p style="margin:8px 0;color:#ccc">Valor: <strong>R$ 59,90</strong></p>
+                            <p style="margin:0;color:#ffd166">Pagamento instantâneo</p>
+                            <button class="cta-button" onclick="copyPixSignals()">⚡ Copiar PIX (R$ 59,90)</button>
+                        </div>
+
+                        <div class="payment-card">
+                            <div class="payment-title">Pagamento Internacional</div>
+                            <div class="payment-subtitle">PayPal • Revolut • Skrill</div>
+                            <p style="margin:0;color:#ccc">Valor do plano: R$ 59,90</p>
+                            <p style="margin:0;color:#ccc">Taxa internacional: <strong>+ R$ 25,00</strong></p>
+                            <p style="margin:8px 0 14px;color:#ccc">Total estimado: <strong>R$ 84,90</strong></p>
+                            <div>
+                                <button class="cta-button" onclick="openPayPal()">🌍 Pagar via PayPal</button>
+                                <button class="cta-button" onclick="openRevolut()">💳 Pagar via Revolut</button>
+                                <button class="cta-button" onclick="openSkrillSignals()">🪪 Pagar via Skrill</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="max-width:900px;margin:10px auto 0;color:#aaa;text-align:center;line-height:1.6;">
+                    <small>
+                        Observação: pagamentos internacionais (PayPal/Revolut/Skrill) possuem taxa adicional fixa de R$ 25,00. 
+                        O link de cartão utiliza a plataforma InfinitePay. O PIX copia-e-cola será copiado automaticamente para sua área de transferência.
+                    </small>
+                </div>
             </div>
         </section>
 
@@ -421,7 +498,7 @@
             </div>
         </section>
 
-        <section class="payment">
+        <section class="payment" id="payment">
             <div class="container">
                 <h2>💳 Escolha sua Forma de Pagamento</h2>
 
@@ -670,6 +747,47 @@ Aguardo confirmação! 🤖`;
                 action: 'page_loaded',
                 timestamp: Date.now()
             }));
+        }
+
+        // ===== Robô de Sinais (até G1) - Funções de Pagamento =====
+        function openInfinitePaySignals() {
+            showProcessing();
+            setTimeout(() => {
+                hideProcessing();
+                window.open('https://pay.infinitepay.io/alexandre-tech/VC1DLTAtUg-DGSfSkTkN-59,90', '_blank');
+                showSuccess();
+            }, 1200);
+        }
+
+        function copyPixSignals() {
+            const pix = '00020101021226700014BR.GOV.BCB.PIX0122alexandre-tech@jim.com0222Pagamento alexandre-te520400005303986540559.905802BR5925ELIANA VITORIA TELES SANT6009ITAPARICA62290525QRCCPRThyYzw4CUDXsJLhMBPu63044300';
+            showProcessing();
+            navigator.clipboard.writeText(pix).then(() => {
+                hideProcessing();
+                alert('Código PIX (copia e cola) copiado! Abra seu app bancário e cole.');
+                showSuccess();
+            }).catch(() => {
+                hideProcessing();
+                alert('Não foi possível copiar automaticamente. Se necessário, peça o código PIX ao suporte.');
+            });
+        }
+        
+        function openSkrillSignals() {
+            showProcessing();
+            setTimeout(() => {
+                hideProcessing();
+                const message = `Olá! Quero o Robô de Sinais (R$ 59,90) via Skrill (+R$ 25 taxa internacional).\n\nEnvio para: informe seu e-mail Skrill no suporte.\n\nAguardo instruções.`;
+                if (tg?.initDataUnsafe && tg.initDataUnsafe.user) {
+                    tg.sendData(JSON.stringify({
+                        action: 'skrill_payment_signals',
+                        user_id: tg.initDataUnsafe.user.id,
+                        message
+                    }));
+                } else {
+                    window.open('https://t.me/alexandre_tech', '_blank');
+                }
+                showSuccess();
+            }, 1200);
         }
     </script>
 </body>
